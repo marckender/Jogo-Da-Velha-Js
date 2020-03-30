@@ -69,9 +69,9 @@ font-size: 42px;
 }
 
 
-/* .hide {
+.hide {
     display: none !important;
-} */
+}
 
 #scoreBoard-container {
     font-weight: bold;
@@ -112,6 +112,6 @@ font-size: 42px;
     width: 500px;
     font-size: 50px ;
     background-color: #000;
-    color:  rgb(78, 78, 90);
+    color:  #fff;
     padding: 20px;
 }
