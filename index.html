@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Velha com Javascript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>Jogo da Velha com Js</h1>
+
+    <div id= "buttons-container">
+        <button id= "2-players" > 2 Jogadores</button>
+        <button id= "IA-players" >  VS IA</button>
+    </div>
+
+    <div class="hide" id="container">
+
+        <div class="box" id="block-1"></div>
+        <div class="box" id="block-2"></div>
+        <div class="box" id="block-3"></div>
+        <div class="box" id="block-4"></div>
+        <div class="box" id="block-5"></div>
+        <div class="box" id="block-6"></div>
+        <div class="box" id="block-7"></div>
+        <div class="box" id="block-8"></div>
+        <div class="box" id="block-9"></div>  
+    
+
+        <div id="scoreBoard-container">
+            <h2>Placar </h2>
+
+            <span class="score-box">
+                <span id="x-scoreBoard"> X</span>: 
+                <span id= "scoreBord-1">0  </span>    
+            </span>
+
+            <span class="score-box">
+                <span id="o-scoreBoard"></span>: 
+                <span id= "scoreBord-2"> 0 </span>  
+            </span>
+
+        </div>
+    </div>
+
+    <div class="hide">
+        <div class="x"> X </div>
+        <div class="o"> </div>
+    </div>
+
+    <div id="message" class="hide">
+        <p>U Win</p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
